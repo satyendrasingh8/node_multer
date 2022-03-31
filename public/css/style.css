@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.admin {
+  margin-left: 50%;
+  margin-top: 7rem;
+  transform: translateX(-30%);
+}
+
+.admin__input {
+  border: none;
+  background-color: #41398e;
+  padding: 1rem 1.8rem;
+  color: #e2e0e0;
+  border-radius: 10rem;
+  margin-right: 2.5rem;
+}
+
+.admin__submit {
+  border: none;
+  background-color: #603556;
+  padding: 1rem 1.8rem;
+  color: #e2e0e0;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.admin__submit:focus {
+  outline: none;
+}
+
+.files__entity {
+  background-color: lightgray;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
